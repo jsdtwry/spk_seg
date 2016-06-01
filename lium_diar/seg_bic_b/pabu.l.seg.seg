@@ -1,0 +1,14 @@
+;; cluster S0 
+pabu 1 0 2948 U U U S0
+;; cluster S14 
+pabu 1 7527 425 U U U S14
+;; cluster S15 
+pabu 1 7952 1123 U U U S15
+;; cluster S5 
+pabu 1 2948 610 U U U S5
+;; cluster S6 
+pabu 1 3558 829 U U U S6
+;; cluster S7 
+pabu 1 4387 387 U U U S7
+;; cluster S8 
+pabu 1 4774 2753 U U U S8

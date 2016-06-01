@@ -1,0 +1,8 @@
+;; cluster S0 
+paag 1 0 579 U U U S0
+;; cluster S1 
+paag 1 579 2708 U U U S1
+;; cluster S7 
+paag 1 3287 1309 U U U S7
+;; cluster S9 
+paag 1 4596 7637 U U U S9

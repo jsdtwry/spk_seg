@@ -1,0 +1,10 @@
+;; cluster S0 
+pabs 1 0 7748 U U U S0
+;; cluster S13 
+pabs 1 10617 1866 U U U S13
+;; cluster S15 
+pabs 1 12483 1319 U U U S15
+;; cluster S8 
+pabs 1 7748 311 U U U S8
+;; cluster S9 
+pabs 1 8059 2558 U U U S9

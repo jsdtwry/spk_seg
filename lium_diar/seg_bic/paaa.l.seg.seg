@@ -1,0 +1,6 @@
+;; cluster S0 
+paaa 1 0 1203 U U U S0
+;; cluster S16 
+paaa 1 10433 1926 U U U S16
+;; cluster S2 
+paaa 1 1203 9230 U U U S2

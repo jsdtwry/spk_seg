@@ -1,0 +1,22 @@
+;; cluster S0 
+pabi 1 0 1015 U U U S0
+;; cluster S11 
+pabi 1 7045 1243 U U U S11
+;; cluster S13 
+pabi 1 8288 1464 U U U S13
+;; cluster S14 
+pabi 1 9752 1433 U U U S14
+;; cluster S16 
+pabi 1 11185 761 U U U S16
+;; cluster S2 
+pabi 1 1015 1284 U U U S2
+;; cluster S5 
+pabi 1 2299 1179 U U U S5
+;; cluster S6 
+pabi 1 3478 591 U U U S6
+;; cluster S7 
+pabi 1 4069 861 U U U S7
+;; cluster S8 
+pabi 1 4930 738 U U U S8
+;; cluster S9 
+pabi 1 5668 1377 U U U S9

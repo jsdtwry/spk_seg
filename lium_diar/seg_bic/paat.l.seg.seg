@@ -1,0 +1,10 @@
+;; cluster S0 
+paat 1 0 4220 U U U S0
+;; cluster S6 
+paat 1 4220 864 U U U S6
+;; cluster S7 
+paat 1 5084 610 U U U S7
+;; cluster S8 
+paat 1 5694 644 U U U S8
+;; cluster S9 
+paat 1 6338 4123 U U U S9

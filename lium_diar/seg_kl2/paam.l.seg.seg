@@ -1,0 +1,12 @@
+;; cluster S0 
+paam 1 0 2163 U U U S0
+;; cluster S10 
+paam 1 7004 3227 U U U S10
+;; cluster S13 
+paam 1 10231 1602 U U U S13
+;; cluster S15 
+paam 1 11833 1030 U U U S15
+;; cluster S3 
+paam 1 2163 801 U U U S3
+;; cluster S4 
+paam 1 2964 4040 U U U S4

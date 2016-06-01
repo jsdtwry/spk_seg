@@ -1,0 +1,12 @@
+;; cluster S0 
+paaq 1 0 2057 U U U S0
+;; cluster S13 
+paaq 1 7784 1615 U U U S13
+;; cluster S14 
+paaq 1 9399 3520 U U U S14
+;; cluster S5 
+paaq 1 2057 2929 U U U S5
+;; cluster S8 
+paaq 1 4986 711 U U U S8
+;; cluster S9 
+paaq 1 5697 2087 U U U S9

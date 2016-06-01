@@ -1,0 +1,10 @@
+;; cluster S0 
+pabn 1 0 1232 U U U S0
+;; cluster S15 
+pabn 1 10710 804 U U U S15
+;; cluster S2 
+pabn 1 1232 792 U U U S2
+;; cluster S3 
+pabn 1 2024 1845 U U U S3
+;; cluster S5 
+pabn 1 3869 6841 U U U S5

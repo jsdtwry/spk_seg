@@ -1,0 +1,20 @@
+;; cluster S0 
+paan 1 0 1881 U U U S0
+;; cluster S10 
+paan 1 5072 1346 U U U S10
+;; cluster S11 
+paan 1 6418 1016 U U U S11
+;; cluster S12 
+paan 1 7434 339 U U U S12
+;; cluster S13 
+paan 1 7773 2131 U U U S13
+;; cluster S16 
+paan 1 9904 534 U U U S16
+;; cluster S17 
+paan 1 10438 979 U U U S17
+;; cluster S3 
+paan 1 1881 1436 U U U S3
+;; cluster S6 
+paan 1 3317 1105 U U U S6
+;; cluster S8 
+paan 1 4422 650 U U U S8

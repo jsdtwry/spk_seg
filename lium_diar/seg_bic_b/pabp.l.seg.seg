@@ -1,0 +1,14 @@
+;; cluster S0 
+pabp 1 0 1546 U U U S0
+;; cluster S11 
+pabp 1 6532 2051 U U U S11
+;; cluster S14 
+pabp 1 8583 338 U U U S14
+;; cluster S15 
+pabp 1 8921 1595 U U U S15
+;; cluster S18 
+pabp 1 10516 592 U U U S18
+;; cluster S3 
+pabp 1 1546 3385 U U U S3
+;; cluster S8 
+pabp 1 4931 1601 U U U S8

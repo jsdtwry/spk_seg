@@ -1,0 +1,22 @@
+;; cluster S0 
+paad 1 0 1334 U U U S0
+;; cluster S10 
+paad 1 7245 859 U U U S10
+;; cluster S11 
+paad 1 8104 610 U U U S11
+;; cluster S12 
+paad 1 8714 1317 U U U S12
+;; cluster S13 
+paad 1 10031 864 U U U S13
+;; cluster S14 
+paad 1 10895 855 U U U S14
+;; cluster S2 
+paad 1 1334 1137 U U U S2
+;; cluster S3 
+paad 1 2471 1898 U U U S3
+;; cluster S6 
+paad 1 4369 1549 U U U S6
+;; cluster S8 
+paad 1 5918 613 U U U S8
+;; cluster S9 
+paad 1 6531 714 U U U S9

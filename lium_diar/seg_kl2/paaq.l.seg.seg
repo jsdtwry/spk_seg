@@ -1,0 +1,12 @@
+;; cluster S0 
+paaq 1 0 2057 U U U S0
+;; cluster S10 
+paaq 1 7784 1079 U U U S10
+;; cluster S11 
+paaq 1 8863 4056 U U U S11
+;; cluster S3 
+paaq 1 2057 2410 U U U S3
+;; cluster S6 
+paaq 1 4467 659 U U U S6
+;; cluster S7 
+paaq 1 5126 2658 U U U S7

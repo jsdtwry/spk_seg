@@ -1,0 +1,14 @@
+;; cluster S0 
+paac 1 0 534 U U U S0
+;; cluster S1 
+paac 1 534 779 U U U S1
+;; cluster S10 
+paac 1 6524 427 U U U S10
+;; cluster S11 
+paac 1 6951 4818 U U U S11
+;; cluster S2 
+paac 1 1313 731 U U U S2
+;; cluster S4 
+paac 1 2044 3724 U U U S4
+;; cluster S9 
+paac 1 5768 756 U U U S9

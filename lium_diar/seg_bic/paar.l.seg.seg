@@ -1,0 +1,10 @@
+;; cluster S0 
+paar 1 0 5104 U U U S0
+;; cluster S11 
+paar 1 6190 848 U U U S11
+;; cluster S12 
+paar 1 7038 1458 U U U S12
+;; cluster S15 
+paar 1 8496 4896 U U U S15
+;; cluster S9 
+paar 1 5104 1086 U U U S9

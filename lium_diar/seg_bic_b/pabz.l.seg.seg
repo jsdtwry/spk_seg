@@ -1,0 +1,12 @@
+;; cluster S0 
+pabz 1 0 7284 U U U S0
+;; cluster S11 
+pabz 1 7284 809 U U U S11
+;; cluster S12 
+pabz 1 8093 456 U U U S12
+;; cluster S13 
+pabz 1 8549 257 U U U S13
+;; cluster S14 
+pabz 1 8806 691 U U U S14
+;; cluster S15 
+pabz 1 9497 3207 U U U S15

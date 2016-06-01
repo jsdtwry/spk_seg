@@ -1,0 +1,24 @@
+;; cluster S0 
+pabe 1 0 796 U U U S0
+;; cluster S10 
+pabe 1 6134 1303 U U U S10
+;; cluster S12 
+pabe 1 7437 1493 U U U S12
+;; cluster S15 
+pabe 1 8930 877 U U U S15
+;; cluster S16 
+pabe 1 9807 1036 U U U S16
+;; cluster S17 
+pabe 1 10843 572 U U U S17
+;; cluster S18 
+pabe 1 11415 1299 U U U S18
+;; cluster S2 
+pabe 1 796 1101 U U U S2
+;; cluster S4 
+pabe 1 1897 600 U U U S4
+;; cluster S5 
+pabe 1 2497 619 U U U S5
+;; cluster S6 
+pabe 1 3116 1422 U U U S6
+;; cluster S8 
+pabe 1 4538 1596 U U U S8

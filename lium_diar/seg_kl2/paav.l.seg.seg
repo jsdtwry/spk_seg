@@ -1,0 +1,22 @@
+;; cluster S0 
+paav 1 0 391 U U U S0
+;; cluster S1 
+paav 1 391 368 U U U S1
+;; cluster S12 
+paav 1 6448 542 U U U S12
+;; cluster S13 
+paav 1 6990 4344 U U U S13
+;; cluster S2 
+paav 1 759 758 U U U S2
+;; cluster S21 
+paav 1 11334 391 U U U S21
+;; cluster S22 
+paav 1 11725 1012 U U U S22
+;; cluster S3 
+paav 1 1517 609 U U U S3
+;; cluster S4 
+paav 1 2126 1590 U U U S4
+;; cluster S6 
+paav 1 3716 320 U U U S6
+;; cluster S7 
+paav 1 4036 2412 U U U S7

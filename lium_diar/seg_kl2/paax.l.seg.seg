@@ -1,0 +1,6 @@
+;; cluster S0 
+paax 1 0 4920 U U U S0
+;; cluster S7 
+paax 1 4920 656 U U U S7
+;; cluster S8 
+paax 1 5576 909 U U U S8

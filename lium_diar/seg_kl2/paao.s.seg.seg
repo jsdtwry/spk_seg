@@ -1,0 +1,32 @@
+;; cluster S0 
+paao 1 0 397 U U U S0
+;; cluster S1 
+paao 1 397 827 U U U S1
+;; cluster S10 
+paao 1 5935 896 U U U S10
+;; cluster S11 
+paao 1 6831 1133 U U U S11
+;; cluster S12 
+paao 1 7964 687 U U U S12
+;; cluster S13 
+paao 1 8651 1209 U U U S13
+;; cluster S14 
+paao 1 9860 849 U U U S14
+;; cluster S15 
+paao 1 10709 590 U U U S15
+;; cluster S2 
+paao 1 1224 1066 U U U S2
+;; cluster S3 
+paao 1 2290 627 U U U S3
+;; cluster S4 
+paao 1 2917 488 U U U S4
+;; cluster S5 
+paao 1 3405 643 U U U S5
+;; cluster S6 
+paao 1 4048 505 U U U S6
+;; cluster S7 
+paao 1 4553 729 U U U S7
+;; cluster S8 
+paao 1 5282 318 U U U S8
+;; cluster S9 
+paao 1 5600 335 U U U S9

@@ -1,0 +1,10 @@
+;; cluster S0 
+paaw 1 0 936 U U U S0
+;; cluster S10 
+paaw 1 5841 2166 U U U S10
+;; cluster S14 
+paaw 1 8007 700 U U U S14
+;; cluster S15 
+paaw 1 8707 3309 U U U S15
+;; cluster S2 
+paaw 1 936 4905 U U U S2

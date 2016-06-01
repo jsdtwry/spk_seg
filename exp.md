@@ -28,3 +28,17 @@ MDR: 0.612903225806
 total: 186 detected: 601 false alarm: 343 miss detection: 119
 FAR: 0.648393194707
 MDR: 0.639784946237
+
+
+#lium bic exp
+
+bic_2.5
+total: 186 detected: 426 false alarm: 330 miss detection: 90
+FAR: 0.639534883721
+MDR: 0.483870967742
+
+bic_2.5_cluster
+total: 186 detected: 166 false alarm: 73 miss detection: 93
+FAR: 0.281853281853
+MDR: 0.5
+

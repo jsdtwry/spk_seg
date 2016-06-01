@@ -1,0 +1,6 @@
+;; cluster S0 
+pabh 1 0 5055 U U U S0
+;; cluster S16 
+pabh 1 10037 3781 U U U S16
+;; cluster S8 
+pabh 1 5055 4982 U U U S8

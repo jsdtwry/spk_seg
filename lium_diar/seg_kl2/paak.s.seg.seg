@@ -1,0 +1,30 @@
+;; cluster S0 
+paak 1 0 473 U U U S0
+;; cluster S1 
+paak 1 473 957 U U U S1
+;; cluster S10 
+paak 1 5285 323 U U U S10
+;; cluster S11 
+paak 1 5608 422 U U U S11
+;; cluster S12 
+paak 1 6030 411 U U U S12
+;; cluster S13 
+paak 1 6441 608 U U U S13
+;; cluster S14 
+paak 1 7049 508 U U U S14
+;; cluster S2 
+paak 1 1430 473 U U U S2
+;; cluster S3 
+paak 1 1903 412 U U U S3
+;; cluster S4 
+paak 1 2315 574 U U U S4
+;; cluster S5 
+paak 1 2889 604 U U U S5
+;; cluster S6 
+paak 1 3493 265 U U U S6
+;; cluster S7 
+paak 1 3758 720 U U U S7
+;; cluster S8 
+paak 1 4478 510 U U U S8
+;; cluster S9 
+paak 1 4988 297 U U U S9

@@ -1,0 +1,14 @@
+;; cluster S0 
+paap 1 0 720 U U U S0
+;; cluster S1 
+paap 1 720 3660 U U U S1
+;; cluster S11 
+paap 1 6298 770 U U U S11
+;; cluster S12 
+paap 1 7068 929 U U U S12
+;; cluster S14 
+paap 1 7997 3762 U U U S14
+;; cluster S19 
+paap 1 11759 941 U U U S19
+;; cluster S8 
+paap 1 4380 1918 U U U S8

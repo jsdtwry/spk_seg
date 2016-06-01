@@ -1,0 +1,8 @@
+;; cluster S0 
+pabo 1 0 1817 U U U S0
+;; cluster S11 
+pabo 1 6303 5014 U U U S11
+;; cluster S20 
+pabo 1 11317 1625 U U U S20
+;; cluster S3 
+pabo 1 1817 4486 U U U S3
