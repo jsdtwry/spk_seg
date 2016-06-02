@@ -1,8 +1,0 @@
-;; cluster S0 
-paaj 1 0 3326 U U U S0
-;; cluster S14 
-paaj 1 8258 2466 U U U S14
-;; cluster S7 
-paaj 1 3326 1763 U U U S7
-;; cluster S9 
-paaj 1 5089 3169 U U U S9

@@ -1,8 +1,0 @@
-;; cluster S0 
-pabt 1 0 7206 U U U S0
-;; cluster S11 
-pabt 1 7206 2483 U U U S11
-;; cluster S15 
-pabt 1 9689 2579 U U U S15
-;; cluster S19 
-pabt 1 12268 771 U U U S19

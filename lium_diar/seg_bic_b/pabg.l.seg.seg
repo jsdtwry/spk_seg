@@ -1,8 +1,0 @@
-;; cluster S0 
-pabg 1 0 2759 U U U S0
-;; cluster S13 
-pabg 1 8824 1727 U U U S13
-;; cluster S4 
-pabg 1 2759 1150 U U U S4
-;; cluster S6 
-pabg 1 3909 4915 U U U S6

@@ -1,6 +1,0 @@
-;; cluster S0 
-pabf 1 0 324 U U U S0
-;; cluster S1 
-pabf 1 324 477 U U U S1
-;; cluster S2 
-pabf 1 801 2749 U U U S2

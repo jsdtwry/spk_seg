@@ -1,8 +1,0 @@
-;; cluster S0 
-paal 1 0 4077 U U U S0
-;; cluster S18 
-paal 1 10264 1903 U U U S18
-;; cluster S6 
-paal 1 4077 658 U U U S6
-;; cluster S7 
-paal 1 4735 5529 U U U S7
