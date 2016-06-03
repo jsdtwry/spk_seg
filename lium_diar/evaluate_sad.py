@@ -9,6 +9,7 @@ lst_filename = 'lst/bnews.lst'
 #det_filename = '/home/wangry/work/spk_seg/lium_diar/seg/paaa.s.seg'
 
 ft = 0.3
+st = 0.3
 
 lst_l = open(lst_filename).readlines()
 
@@ -32,13 +33,32 @@ def genref(ref_filename):
             ref.append(time)
     return ref
 
-def cal_singal(ref_filename, det_filename):
+def gensad(sad_filename):
+    sad = []
+    sad_l = open(sad_filename).readlines()
+    for i in sad_l:
+        sad.append([float(i[:8]), float(i[8:-1])])
+    return  sad
+
+
+def is_insilence(point, sad):
+    for index, i in enumerate(sad):
+        if index == len(sad)-1:
+                return 0
+        if point > i[0] and point < i[1]:
+            return 0
+        elif point >= i[1] and point <= sad[index+1][0]:
+            return i[1], sad[index+1][0]
+    return 0
+
+
+def cal_singal(ref_filename, det_filename, sad_filename):
     ref_l = open(ref_filename).readlines()
     det_l = open(det_filename).readlines()
-    ref = []
     det = []
 
     ref = genref(ref_filename)
+    sad = gensad(sad_filename)
 
     for i in det_l:
         each = i[:-1].split(' ')
@@ -46,6 +66,7 @@ def cal_singal(ref_filename, det_filename):
             continue
         det.append(float(each[1]))
 
+    #print sad
     print ref
     det.sort()
     print det
@@ -55,11 +76,19 @@ def cal_singal(ref_filename, det_filename):
     for i in det:
         shot = 0
         for j in ref:
-            if abs(i-j)<=ft:
-                #print 'right alarm',i, j
-                right_alarm += 1
-                shot = 1
-                break
+            insilence = is_insilence(j, sad)
+            if insilence!=0:    # is in silence
+                if i > insilence[0]-st and i < insilence[1]+st:
+                    print 'xxxxxxxxxxxxxxxx',insilence
+                    right_alarm += 1
+                    shot = 1
+                    break
+            else:
+                if abs(i-j)<=ft:
+                    #print 'right alarm',i, j
+                    right_alarm += 1
+                    shot = 1
+                    break
         if shot==0:
             false_alarm += 1
             #print 'false alarm',i, j
@@ -73,10 +102,17 @@ def cal_singal(ref_filename, det_filename):
     for i in ref:
         shot = 0
         for j in det:
-            if abs(i-j)<=ft:
-                right_detection += 1
-                shot = 1
-                break
+            insilence = is_insilence(i, sad)
+            if insilence!=0:    # is in silence
+                if j > insilence[0]-st and j < insilence[1]+st:
+                    right_detection += 1
+                    shot = 1
+                    break
+            else:
+                if abs(i-j)<=ft:
+                    right_detection += 1
+                    shot = 1
+                    break
         if shot==0:
             miss_detection += 1
 
@@ -92,10 +128,11 @@ right_alarm = 0
 
 #print cal_singal(ref_filename, det_filename)
 for i in lst:
+    sad_filename = '/home/wangry/work/data/bnews/bnews_sad/'+i+'.sad'
     ref_filename = '/home/wangry/work/data/bnews/bnews_ref/'+i+'.ref'
-    det_filename = '/home/wangry/work/data/res/bnews_BIC_150/'+i+'.l.seg'
+    det_filename = '/home/wangry/work/data/res/bnews_BIC_300/'+i+'.l.seg'
     print "==========="+i
-    cal =  cal_singal(ref_filename, det_filename)
+    cal =  cal_singal(ref_filename, det_filename, sad_filename)
     print cal
     total += cal[0]
     det_total +=  cal[1]

@@ -141,6 +141,64 @@ RCL: 0.405759162304
 RRL: 0.360465116279
 
 
+
+bnews evaluate with sad
+===============
+why do this? change evaluation judgement.
+example:
+[37.49, 45.68, 57.19, 57.5, 106.97, 114.68]
+[37.92, 45.01, 107.02, 114.54]
+
+silence: 45.25 - 46.21, 106.76 - 107.02
+
+
+miss detection become of that is: 181-146 19.34%
+false alarm become of that is: 379-342 9.76%
+
+===============
+BIC 50
+total: 382 detected: 699 false alarm: 496 miss detection: 202 right detected: 203
+FAR: 0.564920273349
+MDR: 0.528795811518
+RCL: 0.531413612565
+RRL: 0.290414878398
+
+BIC 100
+total: 382 detected: 667 false alarm: 415 miss detection: 146 right detected: 252
+FAR: 0.520702634881
+MDR: 0.38219895288
+RCL: 0.659685863874
+RRL: 0.377811094453
+
+BIC 150
+total: 382 detected: 578 false alarm: 342 miss detection: 146 right detected: 236
+FAR: 0.472375690608
+MDR: 0.38219895288
+RCL: 0.61780104712
+RRL: 0.40830449827
+
+BIC 200
+total: 382 detected: 531 false alarm: 300 miss detection: 151 right detected: 231
+FAR: 0.439882697947
+MDR: 0.395287958115
+RCL: 0.604712041885
+RRL: 0.435028248588
+
+BIC 250
+total: 382 detected: 479 false alarm: 255 miss detection: 158 right detected: 224
+FAR: 0.400313971743
+MDR: 0.413612565445
+RCL: 0.586387434555
+RRL: 0.46764091858
+
+BIC 300
+total: 382 detected: 454 false alarm: 234 miss detection: 162 right detected: 220
+FAR: 0.37987012987
+MDR: 0.424083769634
+RCL: 0.575916230366
+RRL: 0.484581497797
+
+
 swbd
 ===============
 BIC 50
