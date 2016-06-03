@@ -50,6 +50,8 @@ MDR: 0.5
 [37.49, 45.68, 57.19, 57.5, 106.97, 114.68]
 [37.31, 45.14, 107.2, 112.93, 114.83]
 
+bnews
+===========
 
 ./run.sh BIC 50
 total: 382 detected: 699 false alarm: 553 miss detection: 236 right detected: 146
@@ -137,3 +139,31 @@ FAR: 0.418569254186
 MDR: 0.594240837696
 RCL: 0.405759162304
 RRL: 0.360465116279
+
+
+swbd
+===============
+BIC 50
+total: 8970 detected: 20009 false alarm: 15514 miss detection: 3805 right detected: 4495
+FAR: 0.633638294396
+MDR: 0.424191750279
+RCL: 0.575808249721
+RRL: 0.258133839772
+BIC 100
+total: 8970 detected: 9682 false alarm: 7210 miss detection: 6169 right detected: 2472
+FAR: 0.445611866502
+MDR: 0.68773690078
+RCL: 0.31226309922
+RRL: 0.28929973146
+BIC 150
+total: 8970 detected: 6391 false alarm: 4714 miss detection: 7057 right detected: 1677
+FAR: 0.344489915229
+MDR: 0.786733556299
+RCL: 0.213266443701
+RRL: 0.299327178845
+BIC 200
+total: 8970 detected: 4752 false alarm: 3496 miss detection: 7518 right detected: 1256
+FAR: 0.280442804428
+MDR: 0.838127090301
+RCL: 0.161872909699
+RRL: 0.305555555556

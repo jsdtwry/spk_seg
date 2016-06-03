@@ -1,8 +1,8 @@
 method=$1
 winshift=$2
 
-lst=lst/bnews.lst
-mkdir bnews_$method_$winshift
+lst=lst/swbd.lst
+mkdir swbd_${method}_${winshift}
 for f in `cat ${lst}`
 do
 	echo $f
