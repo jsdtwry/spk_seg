@@ -5,9 +5,11 @@ show=$1
 method=$2
 winlen=$3
 winshift=$4
+l=$5
+h=$6
 
 basedir=/home/wangry/work/data
-datadir=./bnews_${method}_${winlen}_${winshift}
+datadir=./bnews_${method}_${winlen}_${winshift}_${l}_${h}
 
 fDesc="audio2sphinx,1:1:0:0:0:0,13,0:0:0"
 
@@ -19,11 +21,9 @@ ${liumcmd} fr.lium.spkDiarization.programs.MSegInit --fInputMask=$fwav --fInputD
 #bic/kl2 segmentation
 ${liumcmd} fr.lium.spkDiarization.programs.MSeg --kind=FULL --sMethod=$method --sModelWindowSize=$winlen --sMinimumWindowSize=$winshift --fInputMask=$fwav --fInputDesc=$fDesc --sInputMask=./$datadir/$show.i.seg --sOutputMask=./$datadir/$show.s.seg --sOutputFormat=eger.hyp $show
 
-l=1
 # linear clustering
 ${liumcmd} fr.lium.spkDiarization.programs.MClust --fInputMask=$fwav --fInputDesc=$fDesc --sInputMask=./$datadir/$show.s.seg.seg --sOutputMask=./$datadir/$show.l.seg --cMethod=l --cThr=$l --sOutputFormat=eger.hyp $show
 
-h=1
 # hierarchical clustering
 ${liumcmd} fr.lium.spkDiarization.programs.MClust --fInputMask=$fwav --fInputDesc=$fDesc --sInputMask=./$datadir/$show.l.seg.seg --sOutputMask=./$datadir/$show.h.$h.seg --cMethod=h --cThr=$h --sOutputFormat=eger.hyp $show
 
