@@ -54,7 +54,7 @@ def gendet(det_filename):
 
 def cal_singal(ref_filename, det_filename):
     #ref_l = open(ref_filename).readlines()
-    det_l = open(det_filename).readlines()
+    #det_l = open(det_filename).readlines()
     ref = []
     det = []
 
@@ -140,7 +140,7 @@ def test(winlen, winshift, l, h, type):
     print 'RCL:',RCL
     print 'RRL:',RRL
 
-winlen_l = [75,100,125,150]
+winlen_l = [250]
 l='2'
 h='2'
 print '//////////////l='+l+', h='+h+'///////////////'
