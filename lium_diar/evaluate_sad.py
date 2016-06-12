@@ -9,7 +9,7 @@ lst_filename = 'lst/bnews.lst'
 #det_filename = '/home/wangry/work/spk_seg/lium_diar/seg/paaa.s.seg'
 
 ft = 0.3
-st = 0.3
+st = 0
 
 lst_l = open(lst_filename).readlines()
 
@@ -66,6 +66,8 @@ def is_insilence(point, sad):
         if point > i[0] and point < i[1]:
             return 0
         elif point >= i[1] and point <= sad[index+1][0]:
+            if abs(i[1] - sad[index+1][0]) <= 0.3*2:
+                return 0
             return i[1], sad[index+1][0]
     return 0
 
